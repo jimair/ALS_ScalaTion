@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/pandaxubo/Desktop/Spring_2021/Master_Project_7200/alstest/src/main/scala/MDuse.scala:93:39: not found: value target[0m
+[0m[[0m[31merror[0m] [0m[0m    val regularization =  r_lambda * (target.square(X).sum + target.square(Y).sum)[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/pandaxubo/Desktop/Spring_2021/Master_Project_7200/alstest/src/main/scala/MDuse.scala:93:62: not found: value target[0m
+[0m[[0m[31merror[0m] [0m[0m    val regularization =  r_lambda * (target.square(X).sum + target.square(Y).sum)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
