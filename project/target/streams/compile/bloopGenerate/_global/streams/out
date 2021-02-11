@@ -1,4 +1,4 @@
-[debug] [alstest-build] Classpath dependencies List()
-[debug] [alstest-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'alstest-build' to '/Users/pandaxubo/Desktop/Spring_2021/Master_Project_7200/alstest/project/.bloop/alstest-build.json'
-[success] Generated .bloop/alstest-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[alstest-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[alstest-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'alstest-build' to '/Users/pandaxubo/Desktop/Spring_2021/Master_Project_7200/alstest/project/.bloop/alstest-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/alstest-build.json[0m

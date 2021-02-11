@@ -1,7 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain MDTest, Some(2fd75d07-32c4-48f1-a27e-f7ea5e072b29), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7a174e4b, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/pandaxubo/Desktop/Spring_2021/Master_Project_7200/alstest/target/scala-2.12/classes ...[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 2021-2-10 15:12:29[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
-[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
