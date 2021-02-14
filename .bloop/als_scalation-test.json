@@ -1,0 +1,172 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "als_scalation-test",
+        "directory": "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion",
+        "workspaceDir": "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion",
+        "sources": [
+            "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\src\\test\\scala",
+            "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\src\\test\\scala-2.12",
+            "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\src\\test\\scala-2",
+            "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\src\\test\\java",
+            "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\target\\scala-2.12\\src_managed\\test"
+        ],
+        "dependencies": [
+            "als_scalation"
+        ],
+        "classpath": [
+            "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\.bloop\\als_scalation\\scala-2.12\\classes",
+            "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\lib\\scalation_database_2.12-1.6.jar",
+            "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\lib\\scalation_mathematics_2.12-1.6.jar",
+            "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\lib\\scalation_modeling_2.12-1.6.jar",
+            "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\lib\\scalation_statistics_2.12-1.6.jar",
+            "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.13\\scala-library-2.12.13.jar",
+            "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.12\\1.1.2\\scala-parser-combinators_2.12-1.1.2.jar"
+        ],
+        "out": "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\.bloop\\als_scalation",
+        "classesDir": "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\.bloop\\als_scalation\\scala-2.12\\test-classes",
+        "resources": [
+            "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\src\\test\\resources",
+            "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\target\\scala-2.12\\resource_managed\\test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.13",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.12.13\\scala-compiler-2.12.13.jar",
+                "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.13\\scala-library-2.12.13.jar",
+                "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.13\\scala-reflect-2.12.13.jar",
+                "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.12\\1.0.6\\scala-xml_2.12-1.0.6.jar",
+                "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\jline\\jline\\2.14.6\\jline-2.14.6.jar",
+                "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\fusesource\\jansi\\jansi\\1.12\\jansi-1.12.jar"
+            ],
+            "analysis": "C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion\\target\\streams\\test\\bloopAnalysisOut\\_global\\streams\\inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.10.9-hotspot",
+                "options": [
+                    "-Duser.dir=C:\\Users\\Air\\Desktop\\7200\\ALS_ScalaTion"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.13\\scala-library-2.12.13.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.13\\scala-library-2.12.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.12",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "path": "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.12\\1.1.2\\scala-parser-combinators_2.12-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.12\\1.1.2\\scala-parser-combinators_2.12-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.13",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.13\\scala-library-2.12.13.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Air\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.13\\scala-library-2.12.13-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
