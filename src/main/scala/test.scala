@@ -6,6 +6,7 @@ import scalation.linalgebra.Eigenvector
 import scalation.linalgebra._
 import scalation.linalgebra.Fac_LU
 import scala.util.Random
+import scalation.linalgebra.VectorD
 
 import MatrixD.eye
 
@@ -145,4 +146,6 @@ object AirTest extends App{
     val yan = new AirYan(r)
     yan.lud_npp_new(r)
     //yan.lud_ip()
+    val v = new VectorD(1,4,6)
+    yan.solveM(yan.lud_npp_new(r),v)
 }

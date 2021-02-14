@@ -267,7 +267,7 @@ object MDTest extends App{
   for (i <- 0 to 1) {
     if (i != 0){
         //target.optimize_user(X, Y, c, p, target.nu, target.nf, target.r_lambda)
-        target.optimize_item(X, Y, c, p, target.ni, target.nf, target.r_lambda)
+        //target.optimize_item(X, Y, c, p, target.ni, target.nf, target.r_lambda)
     }
     var predict = X * (Y.t)
     var (predict_error, confidence_error, regularization, total_loss) = target.Lossf(c, p, predict, X, Y, target.r_lambda)
@@ -284,9 +284,9 @@ object MDTest extends App{
     println("total loss: " + total_loss)
   }
   
-    
+  val tempMat = r.selectCols(Array(0))  
   var predict = X * (Y.t)
-
+  println(tempMat)
   println("final predict")
   //println(predict)
 
