@@ -60,7 +60,6 @@ class MDuse(a: MatrixD){
   // Initialize Confidence Matrix C
   def ConfC(a: MatrixD) : MatrixD = {
     val C = a * alpha + 1
-    //println(C.toString())
     C
   }
 
